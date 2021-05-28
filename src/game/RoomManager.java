@@ -1,7 +1,7 @@
 package game;
 
 import java.util.Scanner;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.ArrayList;
 import fixtures.Room;
 //import game.Player;
@@ -42,7 +42,7 @@ public class RoomManager {
 		Room fountainArea = new Room(
 				"Fountain",
 				"Quite a beautiful area, lots of statues",
-				"Quite a serene area but I can't help but feel as if something is watching me",
+				"Quite a serene area but I can't help but feel as if something is watching me from inside the fountain",
 				"Trap"
 				);
 		this.room[0][2] = fountainArea;
@@ -79,8 +79,8 @@ public class RoomManager {
 		
 		Room mainQuarters = new Room(
 				"Main Quarters",
-				"Main Quarters large mansion area with plenty of doors",
-				"Is no one home? Very ominous... where should I start looking first"
+				"Large mansion area with plenty of doors",
+				"Is no one home? Very ominous... where should I go from here?"
 				);
 		this.room[1][2] = mainQuarters;
 		
@@ -96,8 +96,9 @@ public class RoomManager {
 		
 		Room mainHall = new Room(
 				"Main Hall",
-				"Main Hallway I can see multiple exits around me",
-				"Is no one home? Very ominous... where should I start looking first"
+				"I can see multiple exits around me",
+				"This area feels way to vulnerable... I believe I can almost make out someone standing in the distance a survivor perhaps?",
+				"Trap"
 				);
 		this.room[2][1] = mainHall;
 	
