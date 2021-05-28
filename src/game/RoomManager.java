@@ -1,6 +1,7 @@
 package game;
 
 import java.util.Scanner;
+import java.util.Arrays;
 import java.util.ArrayList;
 import fixtures.Room;
 //import game.Player;

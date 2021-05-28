@@ -31,7 +31,12 @@ public class Main {
 		e.house();
 		
 		while(isAlive) {
-		e.optionsMenu();
+		try {
+			e.optionsMenu();
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("Out of play area try another direction");
+		}
+		
 		if (Player.health < 1) {
 			isAlive = false;
 		}
